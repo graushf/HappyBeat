@@ -1,0 +1,293 @@
+
+ { padding: 0; margin: 0; }
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+
+body {
+	background-image: url("images/fons.jpg");
+	background-size: 2000px 2000px;
+}
+
+#logo {
+	width: 20%; 
+	height: 20%; 
+	margin-top: 1%;
+}
+
+#trackslist {
+	margin-left: 80%;
+	margin-top: 3%;
+	font-family: 'Special Elite';
+	font-weight: normal;
+	font-size: 80%;
+	color: #FF4500;
+}
+
+a {
+	font-family: 'Special Elite';
+	font-weight: normal;
+	font-size: 80%;
+	color: #FF4500;
+	float: left;
+	margin-left: 1%;
+	margin-top: 0.5%;
+}
+
+a:visited {
+	color: #FF4500; 
+}
+
+#results {
+	margin-top: 8%;
+	width: 60%; 
+}
+
+#results:hover {
+    cursor: pointer;
+}
+
+#list {
+	margin-top: 5%;
+	width: 100%;
+	overflow-y: scroll;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	display: none;
+}
+
+#list h2 {
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 80%;
+}
+
+#list h2:hover {
+	cursor: pointer;
+	color: #FF4500;
+}
+
+#cabecera {
+	position: fixed; 
+	left: 0%; 
+	top: 0%; 
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+}
+
+#query {
+	float: left;
+	font-size: 80%; 
+	border: 1% solid #FF4500; 
+	/*border-radius: 5px;*/
+	border-radius: 10%;
+	border-color: #FF4500;
+	font-family: 'Special Elite';
+	font-weight: bold;
+}
+
+#search {
+	color: #fff; 
+	background-color: #FF4500; 
+	font-size: 80%; 
+	cursor: pointer; 
+	border: 1% solid #FF4500; 
+	border-radius: 10%; 
+	font-family: 'Special Elite';
+	font-weight: normal;
+	float: left;
+	margin-left: 1%;
+}
+
+#video_yt {
+	position: fixed; 
+	right: 5%; 
+	top: 20.5%; 
+	z-index: 1;
+	width: 20%;
+	height: 100%;
+}
+
+#container {
+	position: fixed;
+	left: 24%;
+	top: 8.5%;
+	z-index: 1;
+	width: 80%;
+	height: 0%;
+}
+
+#player {
+	position: fixed; 
+	right:25%; 
+	top: 19%; 
+	z-index: 1;
+	width: 20%;
+	height: 100%;
+	/*background: rgba(255, 255, 255, 0.6);*/
+}
+
+#cd {
+	width: 60%;
+	height: 23%;
+	margin-left: 10%;
+	margin-top: 3.5%;
+	display: none;
+}
+
+.repro {
+	/*background: rgba(255, 255, 255, 0);*/
+	float: left;
+	border-color: none;
+	width: 20%;
+	margin-top: 5%;
+	border-radius: 70%;
+}
+
+button img {
+	width: 100%;
+}
+
+body {
+    padding: 2%;
+}
+
+.form-control {
+	margin-bottom: 2%;
+}
+
+h2 {
+	/*Perque no es visualitzi el titol complet*/
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: 'Special Elite';
+	font-weight: bold;
+	width: 100%;
+}
+
+.artist, .cover, .artistPopular {
+    width: 25%;
+    height: 25%;
+
+    display: inline-block;
+    background-size: cover;
+    margin: 2%;
+}
+
+.coverPopular {
+    width: 80%;
+    height: 80%;
+
+    display: inline-block;
+    background-size: cover;
+    margin: 2%;
+}
+
+.artist img {
+	width: 80%; 
+	height: 80%;
+}
+
+.artist:hover {
+    cursor: pointer;
+    color: #FF3700;
+}
+
+.cover:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.cover.playing {
+    border: 3px solid #FF4500;
+}
+
+#caract2 {
+	top: 44%;
+	width: 20%;
+	height: 40%;
+	position: fixed;
+	right: 4%;
+	z-index: 1;
+}
+
+.caract {
+	margin-right: 50%;
+	font-family: 'Special Elite';
+	font-weight: normal;
+	font-size: 80%; 
+	width: 100%;
+	display: none;
+}
+
+.album_seleccionat {
+	margin-top: 2%;
+	font-size: 70%;
+	cursor: pointer;
+}
+
+.album_seleccionat h2:hover {
+    color: #FF3700;
+}
+
+#title {
+	font-weight: bold;
+}
+
+.mostReplayedSongs {
+	background-color: red;
+	width: 80%;
+	padding-bottom: 1% solid blue;
+	margin-bottom: 1%;
+}
+
+
+
+h3 {
+	font-family: 'Special Elite';
+	font-weight: normal;
+}
+
+.info {
+	position: absolute; 
+	top: 25%;
+	left: 45%; 
+	zoom: 2;
+	opacity: 0; /*Inicialment transparent */
+	color: black;
+	-moz-transition:all ease .8s; 
+	-webkit-transition:all ease .8s ;
+	transition:all ease .8s;
+}
+
+.album_seleccionat:hover .info {
+	filter: alpha(opacity=50);
+	opacity: .8; /*Fem visible les dades al passar per sobre de les cançons*/
+}
+
+
+#titol_populars {
+	background-color: white;
+	margin-top: 15%;
+	width: 80%;
+}
+
+#music {
+	width: 110%;
+	margin-top: -5%;
+	margin-left: -6%;
+	position: fixed;
+}
+
+#hola h1{
+	color: #FFFF00;
+	font-family: 'Special Elite';
+	font-weight: normal;
+}
+
+#hola {
+	width: 30%;
+	height: 10%;
+	margin-left: 50%;
+	margin-top: 2%;
+}

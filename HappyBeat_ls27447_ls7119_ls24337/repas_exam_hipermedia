@@ -1,0 +1,37 @@
+HTML
+
+--> diferencias de DOCTYPE
+xk sutilitza i quins tipus poden existir: html5 te un especific i xml un altre
+
+--> metadata
+indica info com descripcio, autor, i codificacio del charset (que sutilitza per la codificacio de caracters: ISO-8859-1:Latin)
+
+--> tags especifics: quins son de html5?
+
+--> formularis!
+
+CSS
+
+--> selector
+per seleccionar un elecment de l'estrectura, diferents tipus: per elements, per classes, per id's, ...
+
+--> model de caixes
+margin, padding, borders, ... com influeix en el contingut?
+layout (floats), com afecten? position: relative, fixed, absolute, ...
+
+--> no css3
+
+JS
+
+--> callback
+nom duna funcio, que quan sexecuta li passa unes variables i en aquest cas un funcio que se li passa sola.
+
+--> ventajas sincrono sobre asincrono? Difenrecias
+
+--> getJSON
+
+Que da este codigo de respuesta?
+
+tipos de datos... (esta en objectos)
+	Nand
+	Undefined

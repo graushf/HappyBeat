@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <title> Happy Beat - Awesome music application ♪ </title>
+
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+  <link rel="shortcut icon" href="images/icon.png" type="image/png" />
+    
+  <script type='text/javascript' src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+  <script src="HappyBeat.js"></script>
+
+  <script src="jquery.min.js"></script>
+
+  <script src="spotify_en_tools.js"></script>
+
+  <link rel="stylesheet" href="HappyBeat.css">
+
+</head>
+
+<body>
+
+  <div id="cabecera">
+    <img id="logo" src="images/logo.png"/>
+  </div>
+
+  <img id="music" src="images/music.png"/>
+
+  <div id="player">
+    <img src="" id="cd"/>
+
+  </div> 
+
+  <div id="container">
+
+    <form id="search-form">
+
+      <input type="text" id="query" value="" class="form-control"/>
+      <input type="submit" id="search" class="btnsearch" value="Search"/>
+
+
+      <a href="#" id="artistasRel"> Similar artist </a>
+      <a href="#" id="link_populars"> Most replayed songs </a>
+
+    </form>
+
+
+  </div>
+
+  <div id="results"></div>
+
+  <div id="video_yt"></div>
+  
+  <div id="caract2">
+    <label for="title" class="caract" id="title">TITLE</label><br>
+    <label for="artist" class="caract" id="artist">Artist</label><br>
+    <label for="album" class="caract" id="album">Album</label>
+    <div id="list" class="scroll-pane"></div>
+  </div>
+
+</body>
+
+</html>
